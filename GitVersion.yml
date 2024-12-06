@@ -1,0 +1,9 @@
+mode: ContinuousDeployment
+branches:
+  master:
+    regex: master
+  develop:
+    regex: develop
+    label: 'alpha'
+ignore:
+  sha: []
