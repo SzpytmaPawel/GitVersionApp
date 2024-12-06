@@ -11,7 +11,7 @@ namespace GitVersionApp
             // Add services to the container.
             builder.Services.AddRazorComponents()
                 .AddInteractiveServerComponents();
-
+            Console.WriteLine("Hello");
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
